@@ -60,11 +60,6 @@
   <img src="https://streak-stats.demolab.com?user=Naman105&theme=tokyonight" />
 </p>
 
-## 🏆 GitHub Trophies
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Naman105&theme=onedark&no-frame=true&margin-w=10&row=1" />
-</p>
-
 ---
 
 ## 🚀 Current Focus:
@@ -74,8 +69,11 @@
 
 ---
 
+## 🏷️ Badges
 <p align="center">
-  <img src="https://visitcount.itsvg.in/api?id=Naman105&icon=0&color=0" />
+  <img src="https://img.shields.io/github/followers/Naman105?style=for-the-badge" />
+  <img src="https://img.shields.io/github/stars/Naman105?style=for-the-badge" />
+  <img src="https://komarev.com/ghpvc/?username=Naman105&style=for-the-badge" />
 </p>
 
 ---
