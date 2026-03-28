@@ -62,7 +62,7 @@
 
 ## 🏆 GitHub Trophies
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Naman105&theme=tokyonight" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Naman105&theme=onedark&no-frame=true&margin-w=10&row=1" />
 </p>
 
 ---
