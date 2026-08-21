@@ -104,11 +104,9 @@
 
 # 🌱 Currently Learning
 
-- Python for AI/ML
-- LLM Applications
-- System Design
 - Backend Architecture
-- Cloud Deployment
+- AI Integration
+- Data Structures 
 
 ---
 
