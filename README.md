@@ -29,7 +29,7 @@
 # 👋 About Me
 
 - 💻 Full Stack MERN Developer
-- 🧩 DSA enthusiast using C++
+- 🧩 DSA problem solving using C++
 - 🤖 Learning AI/ML & LLM-powered applications
 - 🚀 Interested in Backend Systems, Cloud & Developer Tools
 - 🎯 Open to Software Engineering & Full Stack Internships
