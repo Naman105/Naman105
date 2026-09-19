@@ -1,0 +1,26 @@
+name: Activity Graph
+on:
+  schedule:
+    - cron: "30 0 * * *"   # offset from your snake workflow so pushes don't race
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate activity graph
+        uses: Ashutosh00710/github-readme-activity-graph@v2.1.0
+        with:
+          github-username: Naman105
+          theme: tokyo-night
+          hide_border: true
+          bg_color: 0d1117
+          output: github-contribution-grid-activity-graph.svg
+
+      - name: Push to output branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: ./github-contribution-grid-activity-graph.svg
+          keep_files: true   # don't wipe the snake SVG already living there
