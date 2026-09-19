@@ -86,7 +86,7 @@
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Naman105&theme=tokyo-night&bg_color=0d1117&hide_border=true"/>
+<img src="https://raw.githubusercontent.com/Naman105/Naman105/output/github-contribution-grid-activity-graph.svg"/>
 
 </div>
 
