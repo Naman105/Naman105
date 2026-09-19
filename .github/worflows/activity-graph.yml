@@ -1,12 +1,10 @@
 name: Generate Profile Graphs
 
 on:
+  workflow_dispatch:
+
   schedule:
     - cron: "0 0 * * *"
-  workflow_dispatch:
-  push:
-    branches:
-      - main
 
 permissions:
   contents: write
@@ -17,7 +15,6 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      # Generate animated contribution Snake
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
@@ -26,7 +23,6 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # Generate GitHub Activity Graph
       - name: Generate Activity Graph
         uses: maurodesouza/github-readme-activity-graph-action@v1
         with:
@@ -35,13 +31,11 @@ jobs:
           output_path: dist/github-contribution-grid-activity-graph.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # Check generated files
       - name: Check generated files
         run: |
           echo "Generated files:"
           ls -la dist
 
-      # Publish everything to ONE output branch
       - name: Publish Graphs
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
