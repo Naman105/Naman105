@@ -86,7 +86,7 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Naman105/Naman105/output/github-contribution-grid-activity-graph.svg" alt="GitHub Activity Graph"/>
+<img src="https://raw.githubusercontent.com/Naman105/Naman105/output/github-contribution-grid-activity-graph.svg"/>
 
 </div>
 
@@ -96,7 +96,20 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Naman105/Naman105/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake"/>
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/Naman105/Naman105/output/github-contribution-grid-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/Naman105/Naman105/output/github-contribution-grid-snake.svg"
+  />
+  <img
+    alt="GitHub Contribution Snake"
+    src="https://raw.githubusercontent.com/Naman105/Naman105/output/github-contribution-grid-snake.svg"
+  />
+</picture>
 
 </div>
 
