@@ -2,7 +2,7 @@ name: Profile Graphs
 
 on:
   schedule:
-    - cron: "0 0 * * *"      # once a day, midnight UTC
+    - cron: "0 0 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -11,8 +11,15 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
+
+      - name: Prepare dist directory
+        run: |
+          rm -rf dist
+          mkdir -p dist
+          chmod -R u+rwX dist
 
       - name: Generate snake SVG
         uses: Platane/snk@v3
