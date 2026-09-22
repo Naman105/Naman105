@@ -1,4 +1,4 @@
-name: Generate Profile Graphs
+name: Generate Profile Graphs Naman
 
 on:
   workflow_dispatch:
